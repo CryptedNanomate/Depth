@@ -25,9 +25,6 @@ Bash script will cat the /dev/urandom and extract only alpha characters from it 
 
 THIS IMPLEMENTATION HAS SOME KNOWN FLAWS. I WILL TRY TO FIX THEM IN THE FUTURE
 
-This is what the program exec func will look like after straight before the execution ( all functions will look like this)
-![Screenshot_2023-04-04_21-56-23](https://user-images.githubusercontent.com/95345669/229933632-3a979a93-80b0-4528-95ef-66c1fdd7db4e.png)
-
 
 After the portable executable gets downloaded windows defender wont alert as seen below:
 ![download](https://user-images.githubusercontent.com/95345669/229934339-daa7e4bf-7821-4cd1-b09c-53af07f33604.png)
