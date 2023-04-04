@@ -39,6 +39,8 @@ and that we can execute arbitary commands:
 
 ![commands](https://user-images.githubusercontent.com/95345669/229934750-fa1b2d0d-0c80-40b3-b9df-1e0fa4172df3.png)
 
+Process is alive:
+![process](https://user-images.githubusercontent.com/95345669/229935192-fd4ccd5b-a7cd-4c6b-b9a8-8d83d269947b.png)
 
 
 
