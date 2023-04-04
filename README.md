@@ -28,3 +28,8 @@ THIS IMPLEMENTATION HAS SOME KNOWN FLAWS. I WILL TRY TO FIX THEM IN THE FUTURE
 
 
 
+TODO LIST: 
+1: Add the feature - AddressOfEntryPointHijack 
+2: Make the Try statement in decr function fails on purpose, decrypt the payload inside catch statement to evade defender more.
+3: Loop thru all proceses with CreateToolhelp32Snapshot
+4: CORRECT THE PROGRAM NOT TO USE VIRTUALPROTECT AT ALL!!
