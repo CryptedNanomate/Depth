@@ -3,7 +3,7 @@ Binary encrpytion and injection tool that bypasses windows defender using proces
 
 U will need Mono C# compiler to run this one! on linux ofc.
 
-As an input a program receives a raw binary file . Do not use hexed binary finaly - the program wont work. 
+As an input a program receives a raw binary file . Do not use hexed binary file - the program wont work. 
 Program first encrypts the binary file with randomly generated AES 128 bit key and it uses pkcs7 padding. Then it encrypts the master key with another AES 128 + pkcs7 padding. These values are then echoed to the c# program using bash script and sed. The c# program will decrypt the master key and the payload and execute the payload inside virtually allocated memory space.
 
 Before the program gets executed the entry point address of functions EtwEventWrite will be populated with xor rax,rax ret which will make the function return 0. Rax register holds the return value of the function if we xor it  and set it to 0 the function will return 0.
