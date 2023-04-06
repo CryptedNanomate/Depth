@@ -29,6 +29,14 @@ THIS IMPLEMENTATION HAS SOME KNOWN FLAWS. I WILL TRY TO FIX THEM IN THE FUTURE
 After the portable executable gets downloaded windows defender wont alert as seen below:
 ![download](https://user-images.githubusercontent.com/95345669/229934339-daa7e4bf-7821-4cd1-b09c-53af07f33604.png)
 
+
+One of the code lines look like this, all the code lines look simular btw. ( these randomly looking values will be different in every iteration)
+
+
+![screen](https://user-images.githubusercontent.com/95345669/230502957-8a61f3df-d199-4099-af3c-722a4d1c1f05.png)
+
+
+
 if we  execute the portable executable we can see that reverse shell came back:
 ![shell](https://user-images.githubusercontent.com/95345669/229934578-3e21c0bc-8591-4dc6-8b44-859fd57655d5.png)
 
