@@ -68,7 +68,7 @@ public class AesOperation
         }
         
 
-    static void Main(string[] args)
+       static void Main(string[] args)
         {   
             
             byte[] Slucajno1 = new byte[] KEYVAL
@@ -78,28 +78,98 @@ public class AesOperation
             byte[] Slucajno5 = new byte[] ENKEY
             byte[] Slucajno6 = new byte[]  IVKEY
             byte[] Slucajno7 = Slucajno8(Slucajno4,Slucajno5,Slucajno6);
-            Array.Reverse(Slucajno7);
+            Slucajno33(Slucajno7);
             FreeConsole();
-            Array.Reverse(Slucajno7);
+            Slucajno33(Slucajno7);
             Slucajno29(Slucajno7);
        
         }
 
 
-
-public static byte[] Slucajno8(byte[] Slucajno11, byte[] cipherText, byte[] Slucajno12)
-
+public static void Slucajno33(byte[] array)
+{
+    if (array == null || array.Length <= 1)
     {
-        try
+        return;
+    }
+
+    int Slucajno37 = 0; 
+    int Slucajno38 = array.Length - 1; 
+
+    while (Slucajno37 < Slucajno38)  
+    {
+        byte temp = array[Slucajno37];
+        array[Slucajno37] = array[Slucajno38];
+        array[Slucajno38] = temp;
+        Slucajno37++;
+        Slucajno38--;
+    }
+}
+
+public static byte[] Slucajno8(byte[] Slucajno11, byte[] Slucajno31, byte[] Slucajno12)
+
+{
+try
+  {
+
+   for (int Slucajno33 = 0; Slucajno33 < 255; Slucajno33++)
+    {
+        for (int Slucajno34 = 0; Slucajno34 < 145; Slucajno34++)
         {
-            using (Aes Slucajno9 = Aes.Create())
+            for (int Slucajno35 = 0; Slucajno35 < 452; Slucajno35++)
+            {
+                for (int Slucajno36= 0; Slucajno34 < 1389; Slucajno35++)
+                {
+                    while (true)
+                    {
+                        if (Slucajno33 == Slucajno34 && Slucajno35 == Slucajno36)
+                        {
+                            throw new Exception("Slucajno32");
+                        }
+                        else
+                        {
+                            if (Slucajno33 > Slucajno34 && Slucajno35 > Slucajno36)
+                            {
+                                Slucajno33 = Slucajno34 - 1;
+                                Slucajno35 = Slucajno34 - 1;
+                                Slucajno36 = Slucajno34 = 0;
+                                continue;
+                            }
+                            else if (Slucajno33 > Slucajno36)
+                            {
+                                Slucajno33 = Slucajno34 - 1;
+                                Slucajno34 = Slucajno36 = 0;
+                                continue;
+                            }
+                            else if (Slucajno36 > Slucajno35)
+                            {
+                                Slucajno34 = Slucajno36 = 0;
+                                continue;
+                            }
+                            else
+                            {
+                                break;
+                                return null;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    return null;        
+}
+        catch (Exception ex)
+        {
+             using (Aes Slucajno9 = Aes.Create())
             {
                 byte[] Slucajno10 = SHA256.Create().ComputeHash(Slucajno11);
                 Slucajno9.Key = Slucajno10;
                 Slucajno9.IV = Slucajno12;
                 ICryptoTransform Slucajno13 = Slucajno9.CreateDecryptor(Slucajno9.Key, Slucajno9.IV);
                 byte[] Slucajno14;
-                using (MemoryStream Slucajno15 = new MemoryStream(cipherText))
+                using (MemoryStream Slucajno15 = new MemoryStream(Slucajno31))
                 {
                     using (CryptoStream Slucajno16 = new CryptoStream(Slucajno15, Slucajno13, CryptoStreamMode.Read))
                     {
@@ -116,11 +186,6 @@ public static byte[] Slucajno8(byte[] Slucajno11, byte[] cipherText, byte[] Sluc
 
                 return Slucajno14;
             }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-            return null;
         }
     }
 
