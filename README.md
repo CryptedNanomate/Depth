@@ -52,7 +52,7 @@ Process is alive:
 
 TODO LIST: 
 1: Add the feature - AddressOfEntryPointHijack 
-2: Make the Try statement in decr function fails on purpose, decrypt the payload inside catch statement to evade defender more.
+2: Make the Try statement in decr function fails on purpose, decrypt the payload inside catch statement to evade defender more. - Done
 3: Loop thru all proceses with CreateToolhelp32Snapshot
 4: SIgn the executable with stolen signature of regular .exe.
 5: CORRECT THE PROGRAM NOT TO USE VIRTUALPROTECT AT ALL!!
